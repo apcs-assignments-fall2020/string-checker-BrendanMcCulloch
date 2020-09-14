@@ -6,15 +6,16 @@ public class MyMain {
     public static int countABC(String str) {
         int counter = 0;
         for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == "c") {
+            if (str.charAt(i) == 'c') {
                 return counter++;
             }
-            else if (str.charAt(i) == "b"){
+            else if (str.charAt(i) == 'b'){
                 return counter++;
             }
-            else if (str.charAt(i) == "a"){
+            else if (str.charAt(i) == 'a'){
                 return counter++;
             }
+        }
 
         return counter;
     }
